@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>DR Log | Profile</title>
+      <link rel="stylesheet" href="./css/style.css">
+      <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900" rel="stylesheet">
+</head>
+<body class="profile-bg">
+        <div>
+             <span id="brand">
+                  <a href="index.html">DR•Log</a>
+            </span>
+        </div>
+      <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+
+            <div id="toggle">
+                  <div class="span" id="one"></div>
+                  <div class="span" id="two"></div>
+                  <div class="span" id="three"></div>
+            </div>
+      </nav>
+
+      <div id="resize">
+            <ul id="menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="places.html">Places</a></li>
+                  <li><a href="profile.html">Profile</a></li>
+            </ul>
+      </div>
+
+      <div class="aboutme">
+            <div class="pic"><img src="./img/p1.png" alt=""></div>
+            <div class="details">
+                <h6>Den Rose Cabansan</h6>
+                <p>Course/Year</p>
+                <p>School</p>
+                <p>Address</p>
+                <p>Birthday</p>
+            </div>
+      </div>
+      <div class="sm">
+          <div class="box">
+              <a href="https://www.facebook.com/denrose.cabansan.7" target="_blank"><img src="./img/facebook-f.svg" alt=""></a>
+          </div>
+          <div class="box">
+              <a href=""><img src="./img/twitter.svg" alt=""></a>
+          </div>
+          <div class="box">
+              <a href=""><img src="./img/google-plus-g.svg" alt=""></a>
+          </div>
+          <div class="box">
+              <a href=""><img src="./img/instagram.svg" alt=""></a>
+          </div>
+      </div>
+
+      <footer>
+          Copyright &copy; 2018 | DR•Log All Rights Reserved
+      </footer>
+
+      <script>
+
+      $("#toggle").click(function() {
+
+      $(this).toggleClass('on');
+      $("#resize").toggleClass("active");
+
+      });
+
+
+      </script>
+
+</body>
+</html>
